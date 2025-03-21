@@ -38,7 +38,9 @@ The verifier will read the input files from the `data/` directory and perform th
 
 ## Input File Format
 
-### signatures.json
+To run this code, we have already provided an example `signature.json` and `merkle_data.json` in the `data/` directory. 
+
+### signatures.json (values utilized to recover the eth address)
 ```json
 {
   "message": "Original message text",
@@ -54,7 +56,7 @@ The verifier will read the input files from the `data/` directory and perform th
 }
 ```
 
-### merkle_data.json
+### merkle_data.json (valued used to generate the merkle proof for each leaf)
 ```json
 {
   "merkle_root": "[32-byte hex of merkle root without 0x]",
