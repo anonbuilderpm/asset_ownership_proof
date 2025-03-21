@@ -79,11 +79,16 @@ The verifier will read the input files from the `data/` directory and perform th
 
 ## Usage for Zero-Knowledge Proofs
 
-This tool is designed to be compatible with the SP1 zero-knowledge proof system. The verification outputs three public values that can be used as public inputs for a ZK proof:
+This tool is designed to be compatible with the SP1 zero-knowledge proof system. The verification uses three public values:
 
-1. Message Digest - The hash of the signed message
-2. Merkle Root - The root hash of the Merkle tree
-3. Total Balance - The sum of balances across all verified addresses
+1. Message Digest (Public Input) - The hash of the signed message
+2. Merkle Root (Public Input) - The root hash of the Merkle tree
+3. Total Balance (Public Output) - The sum of balances across all verified addresses
+
+There are also a few private inputs:
+
+1. Signed Messages for each address
+2. Balance held by each address
 
 With a ZK proof, you can prove:
 - You control a set of addresses with a specific total balance
