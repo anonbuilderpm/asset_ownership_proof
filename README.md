@@ -72,15 +72,15 @@ To run this code, we have already provided an example `signature.json` and `merk
 
 ## Usage for Zero-Knowledge Proofs
 
-This tool is designed to be compatible with the SP1 zero-knowledge proof system. The verification uses three public values:
+This tool as sort of a pseudo-code for an eventual sp1 proof. The prover makes use of a few public values:
 
-1. Message Digest (Public Input) - The hash of the signed message
-2. Merkle Root (Public Input) - The root hash of the Merkle tree
+1. Message Digest (Public Input) - The hash of the constant signed message
+2. Merkle Root (Public Input) - The root hash of the Merkle tree (each leaf is an address,balance)
 3. Total Balance (Public Output) - The sum of balances across all verified addresses
 
 There are also a few private inputs:
 
-1. Signed Messages for each address
+1. Signed messages from each address
 2. Balance held by each address
 
 With a ZK proof, you can prove:
