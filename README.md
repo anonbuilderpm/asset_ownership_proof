@@ -20,19 +20,6 @@ This verifier performs three critical functions:
 - Calculates the total balance across all verifiably owned addresses
 - Produces a provable claim about the total assets controlled by the signer
 
-## Key Use Case
-
-The primary purpose of this tool is to allow users to prove they control a certain total amount of tokens across multiple addresses without revealing exactly which addresses those are. This is valuable for:
-
-- Proving eligibility for airdrops or token claims
-- Demonstrating financial requirements without exposing wealth details
-- Verifying token holdings for governance voting power
-- Creating zero-knowledge proofs about asset ownership
-
-## Prerequisites
-
-- Rust and Cargo installed
-- Input files in the correct format
 
 ## Running the Verifier
 
