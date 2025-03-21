@@ -23,9 +23,9 @@ This verifier performs three critical functions:
 
 ## Running the Prover
 
-Use `cargo run` to execute the `src/main.rs`.
+Use `cargo run` to execute the `src/main.rs` file.
 
-It will take as input the files from the `data/` directory and perform the steps involved in the end to proof.
+It will take the files from the `data/` directory as input and perform the steps involved in the end to proof.
 
 ## Input File Format
 
