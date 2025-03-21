@@ -1,0 +1,16 @@
+{
+  "message": "My constant pre-image message",
+  "messageDigest": "0x48873dd6d52f2ff3feb97a4dfd14e63f620bcd84ed4fb67e930a8b86ad4c2b99",
+  "signatures": [
+    {
+      "privateKey": "e0afae6a6e647a42779990e5b238a47fec281f142c6aab7539a0f788382fbb5e",
+      "address": "0x2849c4260B6390FbAd40BFECf38ddAeB291dc612",
+      "signature": "0x3c1ec93b0096ea6fc26230cb0ec4b3fd6450b301057a94684cd10c05b2bbf7ca7060b6b407a98d4e1231cb60bf6b6b4353199ca109ee246af10f30590917fc991b"
+    },
+    {
+      "privateKey": "53175f65c93bdcb5b854c36e08c2189fc5fcbeb6cc25958a7a53fe4c36693b08",
+      "address": "0x635548353fc3fFF3bdec9E44e8035602F51c36D7",
+      "signature": "0x1f90d45613de741cead148f5de7e242f7f9411a3d6a2decd40c144bd5b19e3232f529d39c4dae0360b029e4386026f47e7f5ab403c17c5e9a5eb43c8d3e508ba1c"
+    }
+  ]
+} 

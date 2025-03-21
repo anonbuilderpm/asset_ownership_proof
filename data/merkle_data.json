@@ -1,0 +1,68 @@
+{
+  "merkle_root": "a9132fa40b9b025d030d315c02f63a559018c4da71617e5f5dfb1cf79605fab9",
+  "leaves": [
+    {
+      "address": "0x2849c4260b6390fbad40bfecf38ddaeb291dc612",
+      "balance": 1000,
+      "hash": "8463dd8839dd59dec3c7837d89a59d652706ffbccb9006fcc29749b056d3f703"
+    },
+    {
+      "address": "0x2c2dc3a6ef2f44fbb63994e758be95503b5f0a62",
+      "balance": 160,
+      "hash": "c6bb9e5f764833a61ab94cc10b4b4b670de6080c490d6bd95f790f1c03561184"
+    },
+    {
+      "address": "0x3a08de61071abc46ce0f8f24665b580ae5878985",
+      "balance": 130,
+      "hash": "907c75a61dbf259fcdd5b322d24eeb4c7d653d93bcd33a50d102b0787f0003ad"
+    },
+    {
+      "address": "0x635548353fc3fff3bdec9e44e8035602f51c36d7",
+      "balance": 1500,
+      "hash": "d8cc2e394d421b1bd3d98ae831d2f53e8cfe41d3d3e9bac831d899a3b4e83b3f"
+    },
+    {
+      "address": "0x7acceee88a4b5a2a966d0599adc5443defb95b34",
+      "balance": 120,
+      "hash": "828818475276a13c6d5f675d9c4179ea3d5c65c042a2bc6535249f094801bebd"
+    },
+    {
+      "address": "0x9872d35166e34a2b5b27f39efd3a21f120bdeda3",
+      "balance": 140,
+      "hash": "d8e156613f9bc086f942561ba09658de70ab5c75972ddffdee1b7bab8d3c73fb"
+    },
+    {
+      "address": "0xf1dda5c978d82a60c9f7c9a096a0bcfcb5e60d7d",
+      "balance": 150,
+      "hash": "dfb570e6ff40e4e54f0cd32c87aeb5b7d8afb1e80b6d00315b9e1040ed07b33f"
+    }
+  ],
+  "proofs": {
+    "0x2849c4260B6390FbAd40BFECf38ddAeB291dc612": {
+      "address": "0x2849c4260B6390FbAd40BFECf38ddAeB291dc612",
+      "balance": 1000,
+      "leaf_hash": "0x8463dd8839dd59dec3c7837d89a59d652706ffbccb9006fcc29749b056d3f703",
+      "inclusion_branches": {
+        "index": 0,
+        "proof": [
+          "c6bb9e5f764833a61ab94cc10b4b4b670de6080c490d6bd95f790f1c03561184",
+          "c40a7dff609df43e7bd935e2d14d900f506fc334f7325fa5774dbdd1377e96a6",
+          "c167a29b86b94a4aeb8aadfad4ae75120a0467631aceb6916ff615664f2c1522"
+        ]
+      }
+    },
+    "0x635548353fc3fFF3bdec9E44e8035602F51c36D7": {
+      "address": "0x635548353fc3fFF3bdec9E44e8035602F51c36D7",
+      "balance": 1500,
+      "leaf_hash": "0xd8cc2e394d421b1bd3d98ae831d2f53e8cfe41d3d3e9bac831d899a3b4e83b3f",
+      "inclusion_branches": {
+        "index": 3,
+        "proof": [
+          "907c75a61dbf259fcdd5b322d24eeb4c7d653d93bcd33a50d102b0787f0003ad",
+          "8238cf2642076f8e643176273da958e2a4a7c0d1b392115ed6b8f69c5130410a",
+          "c167a29b86b94a4aeb8aadfad4ae75120a0467631aceb6916ff615664f2c1522"
+        ]
+      }
+    }
+  }
+} 
