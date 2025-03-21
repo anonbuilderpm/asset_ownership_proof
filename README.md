@@ -23,13 +23,7 @@ This verifier performs three critical functions:
 
 ## Running the Verifier
 
-1. Clone this repository:
-   ```
-   git clone https://github.com/yourusername/ethereum-sig-verifier.git
-   cd ethereum-sig-verifier
-   ```
-
-2. Run the verifier:
+Execute the command below, to run the end to end proof: 
    ```
    cargo run
    ```
