@@ -1,4 +1,4 @@
-# Ethereum Signature and Merkle Proof Verifier
+# Token Ownership Proof
 
 This tool cryptographically verifies that a user controls Ethereum addresses containing a specific total balance, without revealing which addresses they control.
 
