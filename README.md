@@ -21,14 +21,11 @@ This verifier performs three critical functions:
 - Produces a provable claim about the total assets controlled by the signer
 
 
-## Running the Verifier
+## Running the Prover
 
-Execute the command below, to run the end to end proof: 
-   ```
-   cargo run
-   ```
+Use `cargo run` to execute the `src/main.rs`.
 
-The verifier will read the input files from the `data/` directory and perform the verification.
+It will take as input the files from the `data/` directory and perform the steps involved in the end to proof.
 
 ## Input File Format
 
